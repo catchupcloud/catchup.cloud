@@ -1,0 +1,185 @@
+
+
+/* ---------Hero-Slider-Css-Start------------------ */
+/* hero banner wraper */
+
+
+
+
+/* trial box  wraper */
+.trial_box {
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+}
+
+.trial_box form {
+    width: 60%;
+}
+
+/* trial input  */
+.trial_box form {
+    display: flex;
+}
+
+.trial_box form .form-group {
+    margin-bottom: 0;
+}
+
+.trial_box form .form-group .form-control {
+    width: 360px;
+    height: 55px;
+    border-radius: 6px;
+    color: var(--dark-purple);
+}
+
+.trial_box form .form-group .form-control::placeholder {
+    color: var(--dark-purple);
+}
+
+/* trial_box button */
+.trial_box form .form-group .btn {
+    height: 55px;
+    width: 170px;
+    text-transform: uppercase;
+    color: var(--text-white);
+    background-color: var(--bg-purple);
+    border-radius: 6px;
+    margin-left: 10px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.trial_box form .form-group .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--bg-white);
+    border-radius: 0;
+    transition: .6s all;
+    z-index: -1;
+}
+
+.trial_box form .form-group .btn:hover::before {
+    width: 100%;
+}
+
+.trial_box form .form-group .btn:hover {
+    color: var(--purple);
+}
+
+/* hero slider button */
+.banner_section .app_btn {
+    display: flex;
+    align-items: center;
+}
+
+/* trial box text */
+.trial_box_list ul {
+    position: relative;
+    display: flex;
+}
+
+.trial_box_list ul li{
+    text-align: left;
+    padding: 0 25px 0 0;
+    font-size: 15px;
+}
+
+
+.banner_section .app_btn li:last-child {
+    margin-left: 25px;
+}
+
+.banner_section .app_btn li a img {
+    transition: .4s all;
+}
+
+.banner_section .app_btn li a .white_img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+/* hero banner users */
+.banner_section .used_app {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.banner_section .used_app ul {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.banner_section .used_app ul li:not(:first-child) {
+    margin-left: -15px;
+}
+
+.banner_section .used_app p {
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 0;
+}
+
+/* hero slider images */
+.banner_section .banner_images {
+    /*display: flex;*/
+    position: relative;
+}
+
+.banner_section .banner_images img {
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px #ca97e4;
+    margin-bottom: 20px;
+}
+
+.banner_section .banner_images {
+    text-align: right;
+}
+
+.banner_section .banner_images.image_box2{
+    text-align: left;
+}
+
+.banner_section .banner_images .banner_image1 img{
+    animation-delay: 1s;
+}
+
+.banner_section .banner_images .banner_image2 img{
+    animation-delay: 4s;
+}
+
+.banner_section .banner_images .banner_image3 img{
+    animation-delay: 3s;
+}
+
+.banner_section .banner_images .banner_image4 img{
+    animation-delay: 2s;
+}
+
+
+/* hero banner bg animation */
+.banner_section .hero_bg {
+    position: absolute;
+    top: -200px;
+    right: 50px;
+}
+
+.banner_section .hero_bg {
+    animation: mymove 10s infinite;
+}
+
+
