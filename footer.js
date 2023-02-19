@@ -65,7 +65,7 @@ document.write("                      <h3>Resources</h3>");
 document.write("                        <ul>");
 document.write("                          <li><a href=\"http://catchup.cloud/blog/index.html\">Blog</a></li>");
 document.write("                          <li><a href=\"http://catchup.cloud/faq.html\">FAQs</a></li>");
-document.write("                          <li><a href=\"http://catchup.cloud/help.html\">Help Center</a></li>                          ");
+document.write("                          <li><a href=\"http://catchup.cloud/docs/index.html\">Documentation</a></li>                          ");
 document.write("                          <li><a href=\"http://catchup.cloud/terms.html\">Terms & conditions</a></li>");
 document.write("                          <li><a href=\"http://catchup.cloud/privacy.html\">Privacy policy</a></li>");
 document.write("                        </ul>");
