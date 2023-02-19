@@ -49,7 +49,7 @@ document.write("                  <div class=\"col-lg-3 col-md-6 col-12\">");
 document.write("                      <div class=\"links\">");
 document.write("                        <h3>Useful Links</h3>");
 document.write("                          <ul>");
-document.write("                            <li><a href=\"http://catchup.cloud/index.htm\">Home</a></li>");
+document.write("                            <li><a href=\"http://catchup.cloud/index.html\">Home</a></li>");
 document.write("                            <li><a href=\"http://catchup.cloud/about.html\">About us</a></li>                            ");
 document.write("                            <li><a href=\"http://catchup.cloud/features.html\">Features</a></li>   ");
 document.write("                            <li><a href=\"https://dashboard.catchup.cloud/\">Dashboard</a></li>                            ");
