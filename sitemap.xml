@@ -156,5 +156,17 @@
   <priority>0.64</priority>
 </url>
 
+<url>
+  <loc>https://catchup.cloud/blog/blog_do_this_to_make_your_organization_successful.html</loc>
+  <lastmod> 2023-02-16T12:30:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://catchup.cloud/blog/blog_tips_to_being_an_accountable_team_member.html</loc>
+  <lastmod> 2023-02-16T12:30:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 </urlset>

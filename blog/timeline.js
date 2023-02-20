@@ -334,12 +334,75 @@ document.write('                          <a href="https://catchup.cloud/blog/bl
 document.write('                        </div>');
 document.write('                      </div>');
 document.write('                    </div>');
-
-
 document.write('');
 document.write('');
 document.write('                  </div>');
 document.write('                </div>');
+
+
+
+document.write('                <div class="carousel-item">');
+document.write('                  <div class="row">');
+document.write('');
+document.write('                    <!-- story -->');
+document.write('                    <div class="col-md-4">');
+document.write('                      <div class="story_box">');
+document.write('                        <div class="story_img">');
+document.write('                          <img src="https://catchup.cloud/blog/images/blog16.jpg" alt="image">');
+document.write('');
+document.write('                        </div>');
+document.write('                        <div class="story_text">');
+document.write('                          <a href="https://catchup.cloud/blog/blog_tips_to_being_an_accountable_team_member.html">');
+document.write('                            <h3>Tips to Being an Accountable Team Member');
+document.write('                            </h3>');
+document.write('                          </a>');
+document.write('                          <p>Being a responsible teammate is vital for every successful team. It entails accepting responsibility for your duties...</p>');
+document.write('                          <a href="https://catchup.cloud/blog/blog_tips_to_being_an_accountable_team_member.html">READ MORE</a>');
+document.write('                        </div>');
+document.write('                      </div>');
+document.write('                    </div>');
+document.write('');
+
+document.write('                    <!-- story -->');
+document.write('                    <div class="col-md-4">');
+document.write('                      <div class="story_box">');
+document.write('                        <div class="story_img">');
+document.write('                          <img src="https://catchup.cloud/blog/images/blog17.jpg" alt="image">');
+document.write('');
+document.write('                        </div>');
+document.write('                        <div class="story_text">');
+document.write('                          <a href="https://catchup.cloud/blog/blog_do_this_to_make_your_organization_successful.html">');
+document.write('                            <h3>Do This to Make Your Organization Successful');
+document.write('                            </h3>');
+document.write('                          </a>');
+document.write('                          <p>Every organization has its unique set of challenges and prospects, but certain fundamental principles can help drive...</p>');
+document.write('                          <a href="https://catchup.cloud/blog/blog_do_this_to_make_your_organization_successful.html">READ MORE</a>');
+document.write('                        </div>');
+document.write('                      </div>');
+document.write('                    </div>');
+
+document.write('                    <!-- story -->');
+document.write('                    <div class="col-md-4">');
+/*document.write('                      <div class="story_box">');
+document.write('                        <div class="story_img">');
+document.write('                          <img src="https://catchup.cloud/blog/images/blog15.jpg" alt="image">');
+document.write('');
+document.write('                        </div>');
+document.write('                        <div class="story_text">');
+document.write('                          <a href="https://catchup.cloud/blog/blog_collaborative_communication__the_future_of_your_business.html">');
+document.write('                            <h3>Collaborative communication - the future of your business');
+document.write('                            </h3>');
+document.write('                          </a>');
+document.write('                          <p>The process of sharing information, feedback, and ideas in a way that promotes cooperation...</p>');
+document.write('                          <a href="https://catchup.cloud/blog/blog_collaborative_communication__the_future_of_your_business.html">READ MORE</a>');
+document.write('                        </div>');
+document.write('                      </div>');*/
+document.write('                    </div>');
+document.write('');
+document.write('                  </div>');
+document.write('                </div>');
+
+
 document.write('');
 document.write('');
 document.write('');
