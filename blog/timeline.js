@@ -383,20 +383,20 @@ document.write('                    </div>');
 
 document.write('                    <!-- story -->');
 document.write('                    <div class="col-md-4">');
-/*document.write('                      <div class="story_box">');
+document.write('                      <div class="story_box">');
 document.write('                        <div class="story_img">');
-document.write('                          <img src="https://catchup.cloud/blog/images/blog15.jpg" alt="image">');
+document.write('                          <img src="https://catchup.cloud/blog/images/blog18.jpg" alt="image">');
 document.write('');
 document.write('                        </div>');
 document.write('                        <div class="story_text">');
-document.write('                          <a href="https://catchup.cloud/blog/blog_collaborative_communication__the_future_of_your_business.html">');
-document.write('                            <h3>Collaborative communication - the future of your business');
+document.write('                          <a href="https://catchup.cloud/blog/blog_finding_the_best_project_management_software_using_the_okr_framework.html">');
+document.write('                            <h3>Finding the best project management software using the OKR framework');
 document.write('                            </h3>');
 document.write('                          </a>');
-document.write('                          <p>The process of sharing information, feedback, and ideas in a way that promotes cooperation...</p>');
-document.write('                          <a href="https://catchup.cloud/blog/blog_collaborative_communication__the_future_of_your_business.html">READ MORE</a>');
+document.write('                          <p>OKR (Objectives and Key Results) is a goal-setting paradigm that has gained...</p>');
+document.write('                          <a href="https://catchup.cloud/blog/blog_finding_the_best_project_management_software_using_the_okr_framework.html">READ MORE</a>');
 document.write('                        </div>');
-document.write('                      </div>');*/
+document.write('                      </div>');
 document.write('                    </div>');
 document.write('');
 document.write('                  </div>');
