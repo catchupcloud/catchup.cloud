@@ -40,6 +40,7 @@ document.write("                            <li><a href=\"https://www.linkedin.c
 document.write("                            <li><a href=\"https://www.facebook.com/catchupcloud\" target=\"_blank\"><i class=\"icofont-facebook\"></i></a></li>");
 document.write("                            <li><a href=\"https://twitter.com/catchupcloud\" target=\"_blank\"><i class=\"icofont-twitter\"></i></a></li>");
 document.write("                            <li><a href=\"https://www.instagram.com/catchupcloud\" target=\"_blank\"><i class=\"icofont-instagram\"></i></a></li>");
+document.write("                            <li><a href=\"https://medium.com/@contact_73890\" target=\"_blank\"><i class=\"fa fa-medium\" aria-hidden=\"true\"></i></a></li>");
 document.write("                        </ul>");
 document.write("                      </div>");
 document.write("                  </div>");
