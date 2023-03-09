@@ -12,20 +12,20 @@
         <meta name="author" content="CatchUp">
       
       
-        <link rel="canonical" href="https://catchup.cloud/docs/time_tracking/">
+        <link rel="canonical" href="https://catchup.cloud/docs/roles/">
       
       
-        <link rel="prev" href="../wiki/">
+        <link rel="prev" href="../communication/">
       
       
-        <link rel="next" href="../create_tasks/">
+        <link rel="next" href="../create_project/">
       
       <link rel="icon" href="../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.12">
     
     
       
-        <title>Time Tracking & Invoicing - CatchUp Docs</title>
+        <title>User Roles - CatchUp Docs</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#time-tracking-invoicing" class="md-skip">
+        <a href="#role-based-access-control" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Time Tracking & Invoicing
+              User Roles
             
           </span>
         </div>
@@ -221,14 +221,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
       
       
       
@@ -237,7 +239,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Getting started
@@ -276,11 +278,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../roles/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         User Roles
       </a>
+      
     </li>
   
 
@@ -298,16 +310,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
       
       
       
@@ -316,7 +326,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Projects
@@ -369,21 +379,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../time_tracking/" class="md-nav__link">
         Time Tracking & Invoicing
       </a>
-      
     </li>
   
 
@@ -723,12 +723,16 @@
 
 
 
-<h1 id="time-tracking-invoicing">Time Tracking &amp; Invoicing</h1>
-<p>Setting Project Budget &amp; Team billing rates: A Project manager or Admin can easily set the project budget and each team member’s billing rate from the Project -&gt; Invoices tab. Click the <em>Set Rates &amp; Budget</em> button in the header bar of your screen.</p>
-<p>Time Tracking: Time tracking is done at the Task level. Once inside a task, the user can navigate to the Time tab and log the time for the task using the “Log Time” button in the header bar of the screen. The user can use the checkbox at the bottom to log billable or non-billable hours.</p>
-<p>Invoicing: Invoices can be generated at the project level by clicking the “Create Invoice” button in the header bar. The unbilled tasks are available for invoicing on this screen, as per the billing rate fixed at the project level. Invoices can be downloaded in PDF format.</p>
-<p>Reported Times can be exported at the project level. The user can navigate to the Invoices tab and click the “Export Reported Times” button from the header bar.</p>
-<video autoplay muted loop id="myVideo" style="max-width:100%; width: 100%;" poster="https://catchup.cloud/images/screenshots/1.png" src="https://catchup.cloud/images/screenshots/invoice.mp4" type="video/mp4"></video>
+<h1 id="role-based-access-control">Role-Based Access Control</h1>
+<p>CatchUp supports role-based access control. Users can be in the following different roles:</p>
+<ul>
+<li>Admin</li>
+<li>Team Member</li>
+<li>Project Manager</li>
+<li>Contractor</li>
+<li>Client</li>
+</ul>
+<p><img style="max-width:100%; width: 100%;" src="https://catchup.cloud/images/roles.png"></p>
 
 
 
@@ -750,7 +754,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../wiki/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Wiki" rel="prev">
+          <a href="../communication/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Communication" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -759,20 +763,20 @@
                 <span class="md-footer__direction">
                   Previous
                 </span>
-                Wiki
+                Communication
               </div>
             </div>
           </a>
         
         
           
-          <a href="../create_tasks/" class="md-footer__link md-footer__link--next" aria-label="Next: Create Tasks" rel="next">
+          <a href="../create_project/" class="md-footer__link md-footer__link--next" aria-label="Next: Create Projects" rel="next">
             <div class="md-footer__title">
               <div class="md-ellipsis">
                 <span class="md-footer__direction">
                   Next
                 </span>
-                Create Tasks
+                Create Projects
               </div>
             </div>
             <div class="md-footer__button md-icon">
