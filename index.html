@@ -60,7 +60,10 @@
   margin-bottom:-10px;
   margin-top:-20px;
 }
-
+.sliderimgclass {
+    max-width: 100%;
+    height: auto
+}
 </style>
 </head>
 
@@ -398,38 +401,42 @@
           </div><!-- /.container -->
       </section><!-- /.revolutionize -->
 
-    
- 
-
- <!-- Download button  Section start -->
+     <!-- Download button  Section start -->
  <section class="row_am download_section">
   <!-- container start -->
   <div class="container">
     <div class="section_title" >
-      <h2>Get the App</h2>
+      <h2></h2>
       <br><br>
   </div>
-    <!-- icon start -->
-        <ul class="app_btn">
-          <li>
-            <a href="https://apps.apple.com/in/app/catchup-work/id6444959662" class="app_store" target="_blank">
-              <img class="blue_img" src="images/appstore_blue.png" alt="image" >
-              <img class="white_img" src="images/appstore_white.png" alt="image" >
-            </a>
-          </li>
-          <li>
-            <a href="https://play.google.com/store/apps/details?id=com.cloud.catchup" target="_blank">
-              <img class="blue_img" src="images/googleplay_blue.png" alt="image" >
-              <img class="white_img" src="images/googleplay_white.png" alt="image" >
-            </a>
-          </li>
-        </ul>
-    <!-- icon  end -->
+    <div class="et_pb_module et_pb_code et_pb_code_1 dragerout">
+                
+                
+                
+                
+                <div class="et_pb_code_inner"><cocoen-component>
+                    
+                    <img width="2036" height="1035" src="images/bannerbefore.jpg" alt="Before CatchUp" data-lazy-src="images/bannerbefore.jpg" data-ll-status="loaded" class="entered lazyloaded sliderimgclass" slot="before">
+                    
+                    <img width="2036" height="1033"  alt="After CatchUp" data-lazy-src="images/bannerafter.jpg" class="entered lazyloaded sliderimgclass" src="images/bannerafter.jpg" slot="after" data-ll-status="loaded" ></cocoen-component>
+    
+
+<style>
+.dragerout img {
+max-width: max-content;
+object-position: left;
+}
+</style>
+</div>
+            </div>
+
   </div>
   <!-- container end -->
 </section>
 <!-- Download button Section Section ends -->
-   
+ 
+
+ 
 
    
 
@@ -494,6 +501,361 @@ Free for 14 days, no credit card required.
     <script src="dependencies/wow/js/wow.min.js"></script>
     <script src="dependencies/countUp.js/countUp.min.js"></script>
     <script src="assets/js/app.js"></script>
+
+
+
+<script>
+    var Cocoen = (() => {
+    var g = Object.defineProperty;
+    var b = (n, e) => {
+        for (var t in e) g(n, t, { get: e[t], enumerable: !0 });
+    };
+    var f = {};
+    b(f, { create: () => s, parse: () => p });
+    var a = "cocoen",
+        r = `${a}-component`;
+    var l = (n) => Number.parseInt(window.getComputedStyle(n).width, 10);
+    var h = ({ dragElementWidth: n, hostElementWidth: e, x: t }) => {
+        let i = t;
+        t < 0 ? (i = n) : t >= e && (i = e - n);
+        let o = i + n / 2;
+        return (o /= e), o * 100;
+    };
+    var d = (n, e) => {
+        let t = 0;
+        n instanceof MouseEvent ? (t = n.clientX) : n instanceof TouchEvent && (t = n.touches[0].clientX);
+        let i = e?.getBoundingClientRect().left || 0;
+        return t - i;
+    };
+    var c = (n, e) => {
+        let t;
+        return (...i) => {
+            let o;
+            return (
+                t && clearTimeout(t),
+                (t = setTimeout(() => {
+                    o = n(...i);
+                }, e)),
+                o
+            );
+        };
+    };
+    var m = (n) => `${n}%`;
+    var E = `
+  :host {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+  }
+
+  :host *,
+  :host *:after,
+  :host *:before {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+  }
+
+  #before {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 50%;
+  }
+
+  #drag {
+    background: var(--color, #fff);
+    bottom: 0;
+    cursor: ew-resize;
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+
+  #drag:before {
+        border: 0px;
+    content: '';
+    height: 64px;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -19px;
+    position: absolute;
+    top: 50%;
+    width: 64px;
+    background-image: url(images/slider.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: zoom-in-zoom-out 1s ease infinite;
+  }
+@media only screen and (max-width: 600px) {
+  #drag:before {
+   
+    height: 32px;
+    margin-left: -16px;
+    margin-top: -16px;
+    width: 32px;
+}
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+  ::slotted(img) {
+    max-height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+  }
+
+  ::slotted(img[slot=before]) {
+    max-width: none;
+  }
+
+  ::slotted(img[slot=after]) {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+`,
+        v = class extends HTMLElement {
+            constructor() {
+                super();
+                this.animateToValue = 0;
+                this.colorValue = "#fff";
+                this.dragElementWidthValue = 0;
+                this.elementWidthValue = 0;
+                this.isDraggingValue = !1;
+                this.openRatioValue = 50;
+                this.isRenderedValue = !1;
+                this.isVisibleValue = !1;
+                this.xValue = 0;
+                (this.drag = null),
+                    (this.shadowDOM = this.attachShadow({ mode: "open" })),
+                    (this.onDragStartHandler = () => this.onDragStart()),
+                    (this.onDragEndHandler = () => this.onDragEnd()),
+                    (this.onDragHandler = (e) => this.onDrag(e)),
+                    (this.onClickHandler = (e) => this.onClick(e)),
+                    (this.onContextMenuHandler = () => this.onContextMenu()),
+                    (this.onIntersectionHandler = (e, t) => this.onIntersection(e, t)),
+                    (this.debouncedUpdateDimensions = c(() => {
+                        this.updateDimensions();
+                    }, 250)),
+                    (this.intersectionObserver = new IntersectionObserver(this.onIntersectionHandler, { root: null, rootMargin: "0px", threshold: 0 }));
+            }
+            get x() {
+                return this.xValue;
+            }
+            set x(e) {
+                (this.xValue = e),
+                    window.requestAnimationFrame(() => {
+                        this.openRatio = h({ x: this.xValue, dragElementWidth: this.dragElementWidth, hostElementWidth: this.elementWidth });
+                    });
+            }
+            get elementWidth() {
+                return this.elementWidthValue;
+            }
+            set elementWidth(e) {
+                this.elementWidthValue = e;
+            }
+            get dragElementWidth() {
+                return this.dragElementWidthValue;
+            }
+            set dragElementWidth(e) {
+                this.dragElementWidthValue = e;
+            }
+            get isDragging() {
+                return this.isDraggingValue;
+            }
+            set isDragging(e) {
+                this.isDraggingValue = e;
+            }
+            get openRatio() {
+                return this.openRatioValue;
+            }
+            set openRatio(e) {
+                (this.openRatioValue = e),
+                    window.requestAnimationFrame(() => {
+                        this.updateStyles();
+                    });
+            }
+            get color() {
+                return this.colorValue;
+            }
+            set color(e) {
+                (this.colorValue = e),
+                    window.requestAnimationFrame(() => {
+                        this.style.setProperty("--color", this.color);
+                    });
+            }
+            get isVisible() {
+                return this.isVisibleValue;
+            }
+            set isVisible(e) {
+                this.isVisibleValue = e;
+            }
+            get isRendered() {
+                return this.isRenderedValue;
+            }
+            set isRendered(e) {
+                this.isRenderedValue = e;
+            }
+            get animateTo() {
+                return this.animateToValue;
+            }
+            set animateTo(e) {
+                this.animateToValue = e;
+            }
+            static get observedAttributes() {
+                return ["start", "color"];
+            }
+            attributeChangedCallback(e, t, i) {
+                t !== i &&
+                    (e === "start" && ((this.animateTo = Number.parseInt(String(this.getAttribute("start")), 10)), this.isVisible && (this.openRatio = this.animateTo)), e === "color" && (this.color = String(this.getAttribute("color"))));
+            }
+            connectedCallback() {
+                this.isRendered ||
+                    (this.render(),
+                    (this.isRendered = !0),
+                    this.dispatchEvent(new CustomEvent(`${r}:connected`, this.customEventPayload())),
+                    (this.drag = this.shadowDOM.querySelector("#drag")),
+                    this.updateDimensions(),
+                    this.addEventListener("mousedown", this.onDragStartHandler, { passive: !0 }),
+                    this.addEventListener("touchstart", this.onDragStartHandler, { passive: !0 }),
+                    this.addEventListener("mousemove", this.onDragHandler, { passive: !0 }),
+                    this.addEventListener("touchmove", this.onDragHandler, { passive: !0 }),
+                    this.addEventListener("click", this.onClickHandler, { passive: !0 }),
+                    this.addEventListener("contextmenu", this.onContextMenuHandler, { passive: !0 }),
+                    window.addEventListener("resize", this.debouncedUpdateDimensions, { passive: !0 }),
+                    window.addEventListener("mouseup", this.onDragEndHandler, { passive: !0 }),
+                    window.addEventListener("touchend", this.onDragEndHandler, { passive: !0 }),
+                    this.intersectionObserver.observe(this));
+            }
+            disconnectedCallback() {
+                this.dispatchEvent(new CustomEvent(`${r}:disconnected`, this.customEventPayload())),
+                    this.removeEventListener("mousedown", this.onDragStartHandler),
+                    this.removeEventListener("touchstart", this.onDragStartHandler),
+                    this.removeEventListener("mousemove", this.onDragHandler),
+                    this.removeEventListener("touchmove", this.onDragHandler),
+                    this.removeEventListener("click", this.onClickHandler),
+                    this.removeEventListener("contextmenu", this.onContextMenuHandler),
+                    window.removeEventListener("resize", this.debouncedUpdateDimensions),
+                    window.removeEventListener("mouseup", this.onDragEndHandler),
+                    window.removeEventListener("touchend", this.onDragEndHandler),
+                    this.intersectionObserver.unobserve(this);
+            }
+            render() {
+                this.shadowDOM.innerHTML = `
+      <style>${E}</style>
+      <div id="before">
+        <slot name="before"></slot>
+      </div>
+      <slot name="after"></slot>
+      <div id="drag" part="drag"></div>
+    `;
+            }
+            updateDimensions() {
+                (this.elementWidth = l(this)), this.drag && (this.dragElementWidth = l(this.drag)), this.dispatchEvent(new CustomEvent(`${r}:resized`, this.customEventPayload()));
+            }
+            updateStyles() {
+                let e = this.shadowDOM.querySelector("#before"),
+                    t = this.shadowDOM.querySelector("#drag"),
+                    i = m(this.openRatio);
+                this.animateTo ? ((e.style.transition = "width .75s"), (t.style.transition = "left .75s")) : ((e.style.transition = "none"), (t.style.transition = "none")),
+                    (e.style.width = i),
+                    (t.style.left = i),
+                    this.dispatchEvent(new CustomEvent(`${r}:updated`, this.customEventPayload()));
+            }
+            onDragStart() {
+                (this.animateTo = 0), (this.isDragging = !0);
+            }
+            onDrag(e) {
+                !this.isDragging || (this.x = d(e, this));
+            }
+            onDragEnd() {
+                this.isDragging = !1;
+            }
+            onClick(e) {
+                (this.animateTo = 0), (this.x = d(e, this));
+            }
+            onContextMenu() {
+                this.isDragging = !1;
+            }
+            onIntersection(e, t) {
+                e.forEach((i) => {
+                    i.isIntersecting && (this.dispatchEvent(new CustomEvent(`${r}:visible`, this.customEventPayload())), this.animateTo && (this.openRatio = this.animateTo), (this.isVisible = !0), t.unobserve(this));
+                });
+            }
+            customEventPayload() {
+                return { bubbles: !0, composed: !0, detail: { elementWidth: this.elementWidth, openRatio: this.openRatio, isRendered: this.isRendered, isVisible: this.isVisible } };
+            }
+        };
+    customElements.define(r, v);
+    var s = (n, e) => {
+        let t = document.createElement(r),
+            i = n.querySelectorAll("img")[0],
+            o = n.querySelectorAll("img")[1];
+        if (!i || !o) throw new Error("Cocoen needs two images");
+        return (
+            i.setAttribute("slot", "before"),
+            o.setAttribute("slot", "after"),
+            t.append(i.cloneNode(!0)),
+            t.append(o.cloneNode(!0)),
+            Object.keys(n.dataset).forEach((u) => t.setAttribute(u, String(n.dataset[u]))),
+            e?.start && t.setAttribute("start", String(e.start)),
+            e?.color && t.setAttribute("color", e.color),
+            n.replaceWith(t),
+            t
+        );
+    };
+    var p = (n) => {
+        [...n.querySelectorAll(`.${a}`)].map((t) => s(t));
+    };
+    return f;
+})();
+Cocoen.parse(document.body);
+</script>
+
+<script>
+            WP_VIDEO_LIGHTBOX_VERSION="1.9.4";
+            WP_VID_LIGHTBOX_URL="https://catchup.cloud";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }
+            </script>
 
 </body>
 
