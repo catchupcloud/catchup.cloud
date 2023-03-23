@@ -3531,3 +3531,17 @@ header.fix_style.white_header {
 	.trial_box form .form-group .form-control, .trial_box form .form-group .btn{width:100%; margin:0;}
 	.trial_box form .form-group:not(:last-child){margin-bottom:10px;}
 }
+
+.ico-yes {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAUVBMVEUGsZ0AAAAIuaYbuadOcGMZs6IfpJgol4EasJ0IvKsCvKwesaEcrpoHva4Dva4Dvq0Dva0Dvq0Dva4Cvq4Cvq8Dva0CvK0DvawCvq4Ft60Cva1Urc5pAAAAGnRSTlMaABocAxYLBhAgbhIOJMrBvmKh3WlH9a+BNdvWId0AAAFDSURBVDjLhdTZdoQgEEXRW1gFGOghPWTg/z80LY2WKJjz6NrrFk+C6tjGGCREa5k2oXYyaGK5R9kP2zw3aRxaxT1lGdoJb6gzQy/jKuqGo9yKct5E3li1fGOlkiXUKcaEZaEhQ5hWyNYX6lR2Lb+pqOzakKnL8oBm6yYaDkbHZdZP1HRHx+90f5ZZ86L9++MlpXR50WwdIWaJjkznmUZCUNqQ6XOmgSDIdeSHKRSyouPP7dmSSgcUe8vnGrJEmDP3tNjxWmRNBaVbyrYnZUVP57dVWdFACNjYR1PCEyy2tilhCYy9VakxgaSyPSn0ohaVVYl1dqJsKntNX4+9NDxRsqj6PUGdjmaqr+0mVKj7l7qZksVxlhZK/lD66k8YDmVFKR5eV3r0Xkc7Suz3zkSminaxn6FSzXkpTPx8WukuZsfU6A/XaBb/uLhm8QAAAABJRU5ErkJggg==) 0 0 no-repeat;
+    background-size: 100% 100%;
+}.ico-no, .ico-yes {
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 21px;
+    font-size: 0;
+}.ico-no {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAgVBMVEUAAACip8Smq8mssM2cobyxttG2u9SikKV+gpylqsiuss6ipcautM6xtdCvtM73bFz4cWGqmKmtmq+qr8qgp8D4aFb4ZVOkqsaSmLD9c2D4Yk/0dmior879X0n9XUf0ZFLogHbob2P0Z1b0Zlb/bFf/ZE//YUv/b1v/aFP/X0j/XUai/BRRAAAAJHRSTlMANDM1Nzc3QAQeKwwhMCbNzD8+GRbNzTAI6cyyEOnpsoSEsrL8WCE/AAABwElEQVQ4y42T23aCMBBFEwORcPOCLbTVtrYI6v9/YMeEHMZAbbcPuuJekzMzIAKSfZWXaWmqfSIekVSpHkmr5Fcx1yH5vGz0HNVMSXd1rOMRFyMsnBUxoZRVFL5jomjuTf+P4ng547c7CSJwFxQsQ8HKLTyseAoz1/HoceDmg9lofSdKC5djPbRWDkW9B0ZXl657GiV5yosRPlZWC1s2G5LGo0mqg0y4pNq0lHpMeTx8b525fXv5RGIa2DB9hX7er5fnzc3crPv+xXenlN2D4UXlx/XSPS2jaLlq+/5NsrKG+udqtH29dOSS2fbrbcRUmkGKgdqWNq9dd3pandt2TUHYfFNa6r0aLZ9Pp9P53K4pBlepLxWo5N7UFZlO9Zv4j4qq9aBKBOh4AAJZy8dtYbIl7dWrcjosrtJmd1DldAVelUrt6GVharhYrt5empSrx8MXf1xuOLMUREWqhMsewgimvZ9IFlA5ZDK1EJZKKgmXeTCJnXDUOASBibc7w3Eg4yATnh3+sgQ/7fUgRx2OPzSCYySANzX9GKbg9oC9qxNOod6LKYmZmZVJxCyNqe8rQpwjM/UQJDWZ+Jsma+aOfwAE4iBtSxE+xgAAAABJRU5ErkJggg==) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
