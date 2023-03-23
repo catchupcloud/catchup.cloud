@@ -59,6 +59,7 @@ document.write("                <div class=\"sub_menu\">");
 document.write("                  <ul>");
 document.write("                    <li><a href=\"http://catchup.cloud/blog/index.html\">Blog</a></li>");
 document.write("                    <li><a href=\"http://catchup.cloud/docs/index.html\">Documentation</a></li>");
+document.write("                    <li><a href=\"http://catchup.cloud/integrations.html\">Integrations</a></li>");
 document.write("                    <li><a href=\"http://catchup.cloud/faq.html\">FAQs</a></li>");
 document.write("                    <li><a href=\"http://catchup.cloud/contact.html\">Contact</a></li>");
 
