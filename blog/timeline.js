@@ -403,6 +403,68 @@ document.write('                  </div>');
 document.write('                </div>');
 
 
+document.write('                <div class="carousel-item">');
+document.write('                  <div class="row">');
+document.write('');
+document.write('                    <!-- story -->');
+document.write('                    <div class="col-md-4">');
+document.write('                      <div class="story_box">');
+document.write('                        <div class="story_img">');
+document.write('                          <img src="https://catchup.cloud/blog/images/blog19.jpg" alt="image">');
+document.write('');
+document.write('                        </div>');
+document.write('                        <div class="story_text">');
+document.write('                          <a href="https://catchup.cloud/blog/blog-ai-tools-like-chat-gpt-google-bard-are-about-to-revolutionize-project-management.html">');
+document.write('                            <h3>AI Tools like ChatGPT and Google Bard are about to Revolutionize Project Management');
+document.write('                            </h3>');
+document.write('                          </a>');
+document.write('                          <p>Artificial Intelligence (AI) has already transformed industries in various sectors by automating routine....</p>');
+document.write('                          <a href="https://catchup.cloud/blog/blog-ai-tools-like-chat-gpt-google-bard-are-about-to-revolutionize-project-management.html">READ MORE</a>');
+document.write('                        </div>');
+document.write('                      </div>');
+document.write('                    </div>');
+document.write('');
+
+document.write('                    <!-- story -->');
+document.write('                    <div class="col-md-4">');
+document.write('                      <div class="story_box">');
+document.write('                        <div class="story_img">');
+document.write('                          <img src="https://catchup.cloud/blog/images/blog20.jpg" alt="image">');
+document.write('');
+document.write('                        </div>');
+document.write('                        <div class="story_text">');
+document.write('                          <a href="https://catchup.cloud/blog/blog-chat-gpt-vs.-your-job-vs.-project-management-software-solutions-is-it-wartime.html">');
+document.write('                            <h3>ChatGPT vs. Your Job vs. Project Management Software Solutions - Is it wartime?');
+document.write('                            </h3>');
+document.write('                          </a>');
+document.write('                          <p>With all the trending, viral ChatGPT stuff online, and people saying it will cause massive layoffs...</p>');
+document.write('                          <a href="https://catchup.cloud/blog/blog-chat-gpt-vs.-your-job-vs.-project-management-software-solutions-is-it-wartime.html">READ MORE</a>');
+document.write('                        </div>');
+document.write('                      </div>');
+document.write('                    </div>');
+
+// document.write('                    <!-- story -->');
+// document.write('                    <div class="col-md-4">');
+// document.write('                      <div class="story_box">');
+// document.write('                        <div class="story_img">');
+// document.write('                          <img src="https://catchup.cloud/blog/images/blog18.jpg" alt="image">');
+// document.write('');
+// document.write('                        </div>');
+// document.write('                        <div class="story_text">');
+// document.write('                          <a href="https://catchup.cloud/blog/blog_finding_the_best_project_management_software_using_the_okr_framework.html">');
+// document.write('                            <h3>Finding the best project management software using the OKR framework');
+// document.write('                            </h3>');
+// document.write('                          </a>');
+// document.write('                          <p>OKR (Objectives and Key Results) is a goal-setting paradigm that has gained...</p>');
+// document.write('                          <a href="https://catchup.cloud/blog/blog_finding_the_best_project_management_software_using_the_okr_framework.html">READ MORE</a>');
+// document.write('                        </div>');
+// document.write('                      </div>');
+// document.write('                    </div>');
+document.write('');
+document.write('                  </div>');
+document.write('                </div>');
+
+
 document.write('');
 document.write('');
 document.write('');
