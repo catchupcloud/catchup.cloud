@@ -42,6 +42,9 @@ document.write("                            <li><a href=\"https://twitter.com/ca
 document.write("                            <li><a href=\"https://www.instagram.com/catchupcloud\" target=\"_blank\"><i class=\"icofont-instagram\"></i></a></li>");
 document.write("                            <li><a href=\"https://medium.com/@contact_73890\" target=\"_blank\"><i class=\"fa fa-medium\" aria-hidden=\"true\"></i></a></li>");
 document.write("                        </ul>");
+
+document.write("                        <div class=\"logo\" style=\"margin:0;padding:0;\"> <img src=\"images/r.png\" alt=\"CatchUp\" ></div>");
+
 document.write("                      </div>");
 document.write("                  </div>");
 document.write("");
