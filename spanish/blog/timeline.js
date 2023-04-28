@@ -32,7 +32,7 @@ document.write('');
 document.write('                        </div>');
 document.write('                        <div class="story_text">');
 document.write('                          <a href="https://catchup.cloud/blog/blog_how_project_management_tool_can_enhance_office_productivity.html">');
-document.write('                            <h3>¿Cómo una herramienta de gestión de proyectos puede mejorar la productividad de su oficina?);
+document.write('                            <h3>¿Cómo una herramienta de gestión de proyectos puede mejorar la productividad de su oficina?);');
 document.write('                            </h3>');
 document.write('                          </a>');
 document.write('                          <p>En el mundo empresarial actual, la gestión eficaz de proyectos es esencial para el éxito...</p>');
