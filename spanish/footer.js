@@ -126,7 +126,7 @@ document.write("                <div class=\"col-md-6\">");
 document.write("                    <p>© 2023 CatchUp. Reservados todos los derechos.</p>");
 document.write("                </div>");
 document.write("                <div class=\"col-md-6\">");
-document.write("                    <p style=\"text-align:right\"><a href=\"https://catchup.cloud\">English</a> | <a href=\"https://catchup.cloud/spanish/\">Spanish</a></p>");
+document.write("                    <p style=\"text-align:right\"><a href=\"https://catchup.cloud\">English</a> | <a href=\"https://catchup.cloud/spanish/\">Español</a></p>");
 document.write("                </div>");
 document.write("                ");
 document.write("            </div>");
