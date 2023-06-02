@@ -73,7 +73,7 @@ document.write("              <li class=\"nav-item\">");
 document.write("                <a class=\"nav-link\" href=\"https://dashboard.catchup.cloud\/accounts\/login\/?lang=pt\">Conecte-se</a>");
 document.write("              </li>");
 document.write("              <li class=\"nav-item\">");
-document.write("                <a class=\"nav-link dark_btn\" href=\"https://dashboard.catchup.cloud\/accounts\/signup\/?lang=pt\">INSCREVER-SE</a>");
+document.write("                <a class=\"nav-link dark_btn\" href=\"https://dashboard.catchup.cloud\/accounts\/signup\/?lang=pt\">Registro</a>");
 document.write("              </li>");
 document.write("            </ul>");
 document.write("          </div>");
