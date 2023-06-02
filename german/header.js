@@ -58,7 +58,7 @@ document.write("                <span class=\"drp_btn\"><i class=\"icofont-round
 document.write("                <div class=\"sub_menu\">");
 document.write("                  <ul>");
 document.write("                    <li><a href=\"https://catchup.cloud/german/blog/index.html\">Blog</a></li>");
-document.write("                    <li><a href=\"https://catchup.cloud/german/docs/index.html\">Dokumentation</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/docs/index.html\">Dokumentation</a></li>");
 document.write("                    <li><a href=\"https://catchup.cloud/german/integrations.html\">Integrationen</a></li>");
 document.write("                    <li><a href=\"https://catchup.cloud/german/faq.html\">Häufig gestellte fragen</a></li>");
 document.write("                    <li><a href=\"https://catchup.cloud/german/contact.html\">Kontakt</a></li>");
