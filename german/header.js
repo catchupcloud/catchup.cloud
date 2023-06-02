@@ -4,7 +4,7 @@ document.write("      <!-- container start -->");
 document.write("      <div class=\"container\">");
 document.write("      	<!-- navigation bar -->");
 document.write("        <nav class=\"navbar navbar-expand-lg\">");
-document.write("          <a class=\"navbar-brand\" href=\"http:\/\/catchup.cloud\/french\/index.html\">");
+document.write("          <a class=\"navbar-brand\" href=\"http:\/\/catchup.cloud\/german\/index.html\">");
 document.write("            <img src=\"http://catchup.cloud/../images/logo.png\" alt=\"image\" >");
 document.write("          </a>");
 document.write("          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"");
