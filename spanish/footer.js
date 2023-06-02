@@ -55,7 +55,7 @@ document.write("                        <h3>Enlaces útiles</h3>");
 document.write("                          <ul>");
 document.write("                            <li><a href=\"http://catchup.cloud/spanish/index.html\">Hogar</a></li>");
 document.write("                            <li><a href=\"http://catchup.cloud/spanish/about.html\">Sobre nosotros</a></li>                            ");
-document.write("                            <li><a href=\"http://catchup.cloud/fspanish/eatures.html\">Características</a></li>   ");
+document.write("                            <li><a href=\"https://catchup.cloud/spanish/features.html\">Características</a></li>   ");
 document.write("                            <li><a href=\"https://dashboard.catchup.cloud/\">Panel</a></li>                            ");
 document.write("                            <li><a href=\"http://catchup.cloud/spanish/contact.html\">Contáctenos</a></li>");
 document.write("                          </ul>");
