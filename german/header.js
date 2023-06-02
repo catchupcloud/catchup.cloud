@@ -20,18 +20,18 @@ document.write("");
 document.write("          <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">");
 document.write("            <ul class=\"navbar-nav ml-auto\">");
 document.write("              <li class=\"nav-item active\">");
-document.write("                <a class=\"nav-link\" href=\"http://catchup.cloud/french/index.html\">Heim</a>");
+document.write("                <a class=\"nav-link\" href=\"https://catchup.cloud/german/index.html\">Heim</a>");
 document.write("              </li>");
 document.write("              <li class=\"nav-item\">");
-document.write("                <a class=\"nav-link\" href=\"http://catchup.cloud/french/features.html\">Funktionalitäten</a>");
-document.write("              </li>");
-
-document.write("              <li class=\"nav-item\">");
-document.write("                <a class=\"nav-link\" href=\"http://catchup.cloud/french/pricing.html\">Preisgestaltung</a>");
+document.write("                <a class=\"nav-link\" href=\"https://catchup.cloud/german/features.html\">Funktionalitäten</a>");
 document.write("              </li>");
 
 document.write("              <li class=\"nav-item\">");
-document.write("                <a class=\"nav-link\" href=\"http://catchup.cloud/french/whycatchup.html\">Warum CatchUpp</a>");
+document.write("                <a class=\"nav-link\" href=\"https://catchup.cloud/german/pricing.html\">Preisgestaltung</a>");
+document.write("              </li>");
+
+document.write("              <li class=\"nav-item\">");
+document.write("                <a class=\"nav-link\" href=\"https://catchup.cloud/german/whycatchup.html\">Warum CatchUpp</a>");
 document.write("              </li>");
 document.write("              <!-- secondery menu start -->");
 document.write("              <li class=\"nav-item has_dropdown\">");
@@ -39,11 +39,11 @@ document.write("                <a class=\"nav-link\" href=\"#\">Anwendungsfäll
 document.write("                <span class=\"drp_btn\"><i class=\"icofont-rounded-down\"></i></span>");
 document.write("                <div class=\"sub_menu\">");
 document.write("                  <ul>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/usecases.html\">Dienstleistungsbranche</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/usecases.html#it_companies\">IT-Unternehmen</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/usecases.html#digital_agencies\">Digitale Agenturen</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/usecases.html#marketing_firms\">Marketingfirmen</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/usecases.html#law_firms\">Anwaltskanzleien</a></li>                    ");
+document.write("                    <li><a href=\"https://catchup.cloud/german/usecases.html\">Dienstleistungsbranche</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/usecases.html#it_companies\">IT-Unternehmen</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/usecases.html#digital_agencies\">Digitale Agenturen</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/usecases.html#marketing_firms\">Marketingfirmen</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/usecases.html#law_firms\">Anwaltskanzleien</a></li>                    ");
 document.write("                  </ul>");
 document.write("                </div>");
 document.write("              </li>");
@@ -57,11 +57,11 @@ document.write("                <a class=\"nav-link\" href=\"#\">Ressourcen</a>"
 document.write("                <span class=\"drp_btn\"><i class=\"icofont-rounded-down\"></i></span>");
 document.write("                <div class=\"sub_menu\">");
 document.write("                  <ul>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/blog/index.html\">Blog</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/docs/index.html\">Dokumentation</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/integrations.html\">Integrationen</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/faq.html\">Häufig gestellte fragen</a></li>");
-document.write("                    <li><a href=\"http://catchup.cloud/french/contact.html\">Kontakt</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/blog/index.html\">Blog</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/docs/index.html\">Dokumentation</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/integrations.html\">Integrationen</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/faq.html\">Häufig gestellte fragen</a></li>");
+document.write("                    <li><a href=\"https://catchup.cloud/german/contact.html\">Kontakt</a></li>");
 
 document.write("                  </ul>");
 document.write("                </div>");
