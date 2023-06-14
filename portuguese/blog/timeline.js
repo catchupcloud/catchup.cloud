@@ -450,7 +450,7 @@ document.write('                          <a href="https://catchup.cloud/portugu
 document.write('                            <h3>Diversité, équité et inclusion (DEI) - Importance et mise en œuvre (DEI - Diversity, Equity, and Inclusion)');
 document.write('                            </h3>');
 document.write('                          </a>');
-document.write('                          <p>La diversité, l'équité et l'inclusion (DEI) sont des éléments essentiels du succès de toute organisation...</p>');
+document.write('                          <p>La diversité, l\'équité et l\'inclusion (DEI) sont des éléments essentiels du succès de toute organisation...</p>');
 document.write('                          <a href="https://catchup.cloud/portuguese/blog/blog-diversity-equity-and-inclusion.html">VER COMPLETO</a>');
 document.write('                        </div>');
 document.write('                      </div>');
