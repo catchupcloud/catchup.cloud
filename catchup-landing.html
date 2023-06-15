@@ -440,13 +440,13 @@
             <div class="modal-header">
                 
                 <h4 class="modal-title" id="myModalLabel">Error in Signup</h4>
-                <button type="button" class="btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" onclick="location.reload();">&times;</span></button>
             </div>
             <div class="modal-body">
                 <p id="errormsg"></p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary radius-3 margin-r-10" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary radius-3 margin-r-10" data-dismiss="modal" onclick="location.reload();">Close</button>
             </div>
         </div>
     </div>
@@ -879,7 +879,7 @@ if((hcaptchaVal === "")||(hcaptchaVal===undefined)) {
               location.href="https://catchup.cloud/thanks.html";  
               }else{
                 $("#homeload").hide();    
-                $("#errormsg").html(data.response.response);
+                $("#errormsg").html(data.response.resultText);
                 $("#defaultModal").modal(); 
               }
               
