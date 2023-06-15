@@ -842,7 +842,7 @@ if((hcaptchaVal === "")||(hcaptchaVal===undefined)) {
 
     console.log(datadic);
 
-    if((name.length>2)&&(email.length>4)&&(message.length>4)&&(phone.length>6)&&(country.length>1)&&(website.length>4)){  
+      
       $("#homeload").show();  
       $.ajax({
           url: "https://dashboard.catchup.cloud/post_signup_form/",
@@ -865,7 +865,7 @@ if((hcaptchaVal === "")||(hcaptchaVal===undefined)) {
               $("#homeload").hide();                    
           }
       });
-  }
+  
 
   }
 
