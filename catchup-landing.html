@@ -433,7 +433,25 @@
   </div>
   <!-- Page-wrapper-End -->
   
-    
+    <!-- Modal -->
+  <div class="modal fade" id="defaultModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                
+                <h4 class="modal-title" id="myModalLabel">Error in Signup</h4>
+                <button type="button" class="btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <p id="errormsg"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary radius-3 margin-r-10" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
 
 
   <!-- Jquery-js-Link -->
@@ -853,11 +871,17 @@ if((hcaptchaVal === "")||(hcaptchaVal===undefined)) {
           // headers: { "X-CSRFToken": getCookie("csrftoken") },
           success: function (data) {
               console.log("Success");
-              //$("#defaultModal").modal(); 
+              if(data.result){
+                //$("#defaultModal").modal(); 
               //gtag_report_conversion();            
               console.log(data);       
               $("#homeload").hide();     
-              location.href="https://catchup.cloud/thanks.html";
+              location.href="https://catchup.cloud/thanks.html";  
+              }else{
+                $("#errormsg").html(data.result.response);
+                $("#defaultModal").modal(); 
+              }
+              
           },
           error: function (data) {
               console.log("Error");
