@@ -878,6 +878,7 @@ if((hcaptchaVal === "")||(hcaptchaVal===undefined)) {
               $("#homeload").hide();     
               location.href="https://catchup.cloud/thanks.html";  
               }else{
+                $("#homeload").hide();    
                 $("#errormsg").html(data.result.response);
                 $("#defaultModal").modal(); 
               }
@@ -886,7 +887,9 @@ if((hcaptchaVal === "")||(hcaptchaVal===undefined)) {
           error: function (data) {
               console.log("Error");
               console.log(data);    
-              $("#homeload").hide();                    
+              $("#homeload").hide(); 
+              $("#errormsg").html("Something went wrong!");
+              $("#defaultModal").modal();                   
           }
       });
   
