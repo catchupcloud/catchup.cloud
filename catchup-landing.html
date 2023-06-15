@@ -871,15 +871,15 @@ if((hcaptchaVal === "")||(hcaptchaVal===undefined)) {
           // headers: { "X-CSRFToken": getCookie("csrftoken") },
           success: function (data) {
               console.log("Success");
-              if(data.result){
+              console.log(data); 
+              if (data.response.result) {
                 //$("#defaultModal").modal(); 
-              //gtag_report_conversion();            
-              console.log(data);       
+              //gtag_report_conversion();                              
               $("#homeload").hide();     
               location.href="https://catchup.cloud/thanks.html";  
               }else{
                 $("#homeload").hide();    
-                $("#errormsg").html(data.result.response);
+                $("#errormsg").html(data.response.response);
                 $("#defaultModal").modal(); 
               }
               
