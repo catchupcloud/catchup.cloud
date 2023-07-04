@@ -109,6 +109,7 @@ document.write("                            </a>");
 document.write("                          </li>");
 document.write("                        </ul>");
 document.write("                    </div>");
+document.write("                        <a href=\"https://www.techtimes.com/articles/291880/20230524/top-5-project-collaboration-tools-2023.htm\" target=\"_blank\"><div class=\"logo\" style=\"margin:10px;padding:0;width:150px;\"> <img src=\"images/techtimes.png\" alt=\"CatchUp\"></div></a>");
 document.write("                  </div>");
 document.write("              </div>");
 document.write("              <!-- row end -->");
