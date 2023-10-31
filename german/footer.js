@@ -43,7 +43,7 @@ document.write("                            <li><a href=\"https://www.instagram.
 document.write("                            <li><a href=\"https://medium.com/@contact_73890\" target=\"_blank\"><i class=\"fa fa-medium\" aria-hidden=\"true\"></i></a></li>");
 document.write("                        </ul>");
 
-document.write("                        <div class=\"logo\" style=\"margin:0;padding:0;\"> <img src=\"http://catchup.cloud/../images/r.png\" alt=\"CatchUp\" ></div>");
+document.write("                        <div class=\"logo\" style=\"margin:0;padding:0;\"> <img src=\"../images/iso.png\" alt=\"CatchUp\" ></div>");
 
 document.write("                      </div>");
 document.write("                  </div>");
@@ -109,6 +109,11 @@ document.write("                            </a>");
 document.write("                          </li>");
 document.write("                        </ul>");
 document.write("                    </div>");
+
+document.write("                        <div class=\"logo\" style=\"margin-top:20px;padding:0;\"> <img src=\"../images/r.png\" alt=\"CatchUp\" ></div>");
+document.write("                        <a href=\"https://www.techtimes.com/articles/291880/20230524/top-5-project-collaboration-tools-2023.htm\" target=\"_blank\"><div class=\"logo\" style=\"margin:0px;padding:0;width:120px;\"> <img src=\"../images/techtimes.png\" alt=\"CatchUp\"></div></a>");
+document.write("                  </div>");
+
 document.write("                  </div>");
 document.write("              </div>");
 document.write("              <!-- row end -->");
