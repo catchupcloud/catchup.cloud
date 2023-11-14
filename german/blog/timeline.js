@@ -549,12 +549,12 @@ document.write('                          <img src="https://catchup.cloud/german
 document.write('');
 document.write('                        </div>');
 document.write('                        <div class="story_text">');
-document.write('                          <a href="https://catchup.cloud/german/blog/blog-data-breach-prevention-how-iso-27001:2022-keeps-your-data-safe.html">');
+document.write('                          <a href="https://catchup.cloud/german/blog/blog-data-breach-prevention-how-iso-27001-2022-keeps-your-data-safe.html">');
 document.write('                            <h3>Schutz vor Datenschutzverletzungen: Wie ISO 27001:2022 Ihre Daten schützt?');
 document.write('                            </h3>');
 document.write('                          </a>');
 document.write('                          <p>Das wichtigste Kapital der heutigen digitalen Welt sind Daten, daher ist ihr Schutz vor potenziellen Verstößen...</p>');
-document.write('                          <a href="https://catchup.cloud/german/blog/blog-data-breach-prevention-how-iso-27001:2022-keeps-your-data-safe.html">WEITERLESEN</a>');
+document.write('                          <a href="https://catchup.cloud/german/blog/blog-data-breach-prevention-how-iso-27001-2022-keeps-your-data-safe.html">WEITERLESEN</a>');
 document.write('                        </div>');
 document.write('                      </div>');
 document.write('                    </div>');

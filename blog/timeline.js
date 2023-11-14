@@ -555,12 +555,12 @@ document.write('                          <img src="https://catchup.cloud/blog/i
 document.write('');
 document.write('                        </div>');
 document.write('                        <div class="story_text">');
-document.write('                          <a href="https://catchup.cloud/blog/blog-data-breach-prevention-how-iso-27001:2022-keeps-your-data-safe.html">');
+document.write('                          <a href="https://catchup.cloud/blog/blog-data-breach-prevention-how-iso-27001-2022-keeps-your-data-safe.html">');
 document.write('                            <h3>Data Breach Prevention: How ISO 27001:2022 Keeps Your Data Safe?');
 document.write('                            </h3>');
 document.write('                          </a>');
 document.write('                          <p>The most significant asset of today\'s digital world is data, so its protection from potential breaches and illegal access is critical...</p>');
-document.write('                          <a href="https://catchup.cloud/blog/blog-data-breach-prevention-how-iso-27001:2022-keeps-your-data-safe.html">READ MORE</a>');
+document.write('                          <a href="https://catchup.cloud/blog/blog-data-breach-prevention-how-iso-27001-2022-keeps-your-data-safe.html">READ MORE</a>');
 document.write('                        </div>');
 document.write('                      </div>');
 document.write('                    </div>');
