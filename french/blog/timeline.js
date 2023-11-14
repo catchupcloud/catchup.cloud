@@ -549,7 +549,7 @@ document.write('                          <img src="https://catchup.cloud/french
 document.write('');
 document.write('                        </div>');
 document.write('                        <div class="story_text">');
-document.write('                          <a href="https://catchup.cloud/french/blog/blog-data-breach-prevention-how-iso-27001:2022-keeps-your-data-safe.html">');
+document.write('                          <a href="https://catchup.cloud/french/blog/blog-data-breach-prevention-how-iso-27001-2022-keeps-your-data-safe.html">');
 document.write('                            <h3>Prévention des violations de données: comment la norme ISO 27001-2022 assure-t-elle la sécurité de vos données ?');
 document.write('                            </h3>');
 document.write('                          </a>');
