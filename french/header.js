@@ -60,6 +60,7 @@ document.write("                  <ul>");
 document.write("                    <li><a href=\"http://catchup.cloud/french/blog/index.html\">Blog</a></li>");
 document.write("                    <li><a href=\"http://catchup.cloud/docs/index.html\">Documentation</a></li>");
 document.write("                    <li><a href=\"http://catchup.cloud/french/integrations.html\">Intégrations</a></li>");
+document.write("                    <li><a href=\"http://catchup.cloud/french/iso-27001.html\">ISO 27001</a></li>");
 document.write("                    <li><a href=\"http://catchup.cloud/french/faq.html\">Foire aux questions</a></li>");
 document.write("                    <li><a href=\"http://catchup.cloud/french/contact.html\">Contact</a></li>");
 
