@@ -125,7 +125,7 @@ document.write("            <div class=\"container\">");
 document.write("              <!-- row start -->");
 document.write("              <div class=\"row\">");
 document.write("                <div class=\"col-md-6\">");
-document.write("                    <p>© 2023 CatchUp. All rights reserved.</p>");
+document.write("                    <p>© CatchUp. All rights reserved.</p>");
 document.write("                </div>");
 document.write("                <div class=\"col-md-6\">");
 document.write("                    <p style=\"text-align:right\"><a href=\"https://catchup.cloud\">🇺🇸 English</a> | <a href=\"https://catchup.cloud/spanish/\">🇪🇸 Español</a> | <a href=\"https://catchup.cloud/french/\">🇫🇷 Français</a> | <a href=\"https://catchup.cloud/portuguese/\">🇵🇹 Português</a> | <a href=\"https://catchup.cloud/german/\">🇩🇪 Deutsch</a></p>");
